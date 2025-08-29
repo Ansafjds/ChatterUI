@@ -141,6 +141,28 @@ export enum AppSettings {
     AutoGenerateTitle = 'settings-auto-generate-title',
     WideChatMode = 'settings-wide-chat-mode',
     AlternatingChatMode = 'settings-alternative-chat-mode',
+    
+    // SillyTavern-like features
+    SillyTavernMode = 'sillytavern-mode',
+    ShowMessageTimestamps = 'show-message-timestamps',
+    ShowCharacterAvatars = 'show-character-avatars',
+    ShowUserAvatars = 'show-user-avatars',
+    CompactChatMode = 'compact-chat-mode',
+    ShowTypingIndicator = 'show-typing-indicator',
+    EnableMessageReactions = 'enable-message-reactions',
+    ShowContextTokens = 'show-context-tokens',
+    EnableMessageSearch = 'enable-message-search',
+    ShowChatStatistics = 'show-chat-statistics',
+    EnableMessageBookmarks = 'enable-message-bookmarks',
+    ShowCharacterPersonality = 'show-character-personality',
+    EnableQuickResponses = 'enable-quick-responses',
+    ShowMemoryBank = 'show-memory-bank',
+    EnableCharacterSwitching = 'enable-character-switching',
+    ShowChatHistory = 'show-chat-history',
+    EnableGroupChats = 'enable-group-chats',
+    ShowCharacterRelationships = 'show-character-relationships',
+    EnableEmotionSystem = 'enable-emotion-system',
+    ShowCharacterStatus = 'show-character-status',
 }
 
 /**
@@ -177,6 +199,28 @@ export const AppSettingsDefault: Record<AppSettings, boolean> = {
     [AppSettings.AutoGenerateTitle]: true,
     [AppSettings.WideChatMode]: false,
     [AppSettings.AlternatingChatMode]: false,
+    
+    // SillyTavern-like features defaults
+    [AppSettings.SillyTavernMode]: false,
+    [AppSettings.ShowMessageTimestamps]: true,
+    [AppSettings.ShowCharacterAvatars]: true,
+    [AppSettings.ShowUserAvatars]: true,
+    [AppSettings.CompactChatMode]: false,
+    [AppSettings.ShowTypingIndicator]: true,
+    [AppSettings.EnableMessageReactions]: false,
+    [AppSettings.ShowContextTokens]: false,
+    [AppSettings.EnableMessageSearch]: true,
+    [AppSettings.ShowChatStatistics]: false,
+    [AppSettings.EnableMessageBookmarks]: false,
+    [AppSettings.ShowCharacterPersonality]: true,
+    [AppSettings.EnableQuickResponses]: false,
+    [AppSettings.ShowMemoryBank]: false,
+    [AppSettings.EnableCharacterSwitching]: true,
+    [AppSettings.ShowChatHistory]: true,
+    [AppSettings.EnableGroupChats]: false,
+    [AppSettings.ShowCharacterRelationships]: false,
+    [AppSettings.EnableEmotionSystem]: false,
+    [AppSettings.ShowCharacterStatus]: true,
 }
 
 export const CLAUDE_VERSION = '2023-06-01'
